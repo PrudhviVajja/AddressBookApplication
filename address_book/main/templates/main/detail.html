@@ -1,0 +1,18 @@
+{% extends 'main/main.html' %}
+
+{% block content %}
+
+<h2>Contact Details</h2>
+
+<h3> First Name: </h3> <div class="new-font">{{contact.first_name}}</div> 
+<h3> Last Name: </h3> <div class="new-font">{{contact.last_name}}</div>
+<h3> Address: </h3> <div class="new-font">{{contact.address}}</div>
+<h3> Email: </h3> <div class="new-font">{{contact.email}}</div>
+<h3> Phone: </h3> <div class="new-font">{{contact.phone}}</div>
+
+<br>
+
+<a href="{% url 'contacts' %}">Go Back</a>
+
+
+{% endblock content %}
