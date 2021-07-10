@@ -1,6 +1,6 @@
 # AddressBookApplication
 
-### How to run
+### How to Run
 - `git clone https://github.com/PrudhviVajja/AddressBookApplication.git`
 - `virtualenv env`
 - `source env/bin/activate`
